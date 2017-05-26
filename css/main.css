@@ -13,7 +13,9 @@
 html {
     color: #222;
     font-size: 1em;
+    font-family: "Times New Roman", serif;
     line-height: 1.4;
+    word-wrap: normal;
 }
 
 /*
@@ -94,23 +96,44 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+#paragraph{
+    text-align: left;
+}
+li{
+    font-weight: bold;
+}
+footer {
+    width: 100%;
+    padding-top: 10px;
+}
+a, a:hover {
+    text-decoration: none;
+}
+.socialbtns, .socialbtns ul, .socialbtns li {
+    margin: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.socialbtns li {
+    list-style: none outside none;
+    display: inline-block;
+}
+.socialbtns .fa {
+    width: 30px;
+    height: 20px;
+    color: #035f70;
+    background-color: transparent;
+    padding-top: 12px;
+    border-radius: 22px;
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
+    -o-border-radius: 22px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.socialbtns .fa:hover {
+    transition: all 400ms ease-in-out;
+    color: #69bccc;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
