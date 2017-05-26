@@ -335,16 +335,16 @@ a, a:hover {
 }
 .pro-con {
     margin: 0 25px;
-    display: inline-block;
 }
 #top-img {
-    float: left;
+    float: right;
     margin: 10px;
 }
 
 #alt {
-    float: right;
-    margin: 10px;
+
+    margin: 10px auto;
+    display: block;
 }
 br {
     line-height: .35px;
@@ -355,15 +355,41 @@ br {
     margin: 10px;
 }
 
+.desc {
+    padding: 15px;
+    text-align: center;
+    border: 10px, solid black;
+}
+
+.fixed15 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    left: 15px;
+}
+
+.fixed16 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    right: 185px;
+}
+
 #link-intro {
-    margin-top: 100px;
+    margin-top: 50px;
     color: darkgray;
+    text-align: center;
 }
 .alternative-links a {
-    display: block;
+
+
 }
 .alternative-links a:hover {
+    width: 100px;
     color: magenta;
+    text-align: center;
 }
 .title-links a {
     background-color: lightgrey;
@@ -395,5 +421,15 @@ br {
     background-color: white;
     padding: 15px;
     text-align: center;
+}
+
+.move-to-center {
+    width: 800px;
+    margin: 0 auto;
+}
+a.navigation {
+  padding: 0px 35px;
+  word-wrap: normal;
+  display: inline-block;
 }
 
