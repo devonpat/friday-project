@@ -280,3 +280,13 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+.gallery-success {
+    margin: 35px;
+    border: 10px solid #ccc;
+    width: 650px;
+}
+
+.gallery-success:hover {
+    border: 10px solid #777;
+}
