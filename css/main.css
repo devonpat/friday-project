@@ -388,6 +388,12 @@ br {
     width: 75px;
     position: fixed;
     top: 45px;
-    right: 135px;
+    right: 185px;
+}
+
+.desc {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
 }
 
