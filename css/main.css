@@ -309,3 +309,22 @@ br {
     float: right;
     margin: 10px;
 }
+#link-intro {
+    margin-top: 100px;
+    color: darkgrey;
+}
+.alternative-links a {
+    display: block;
+}
+.alternative-links a:hover {
+    color: magenta;
+}
+.title-links a {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.title-links a:hover {
+    color: purple;
+}
