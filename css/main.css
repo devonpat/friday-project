@@ -313,3 +313,32 @@ a, a:hover {
         page-break-after: avoid;
     }
 }
+
+#fuel-title {
+    text-align: center;
+    margin: 30px;
+}
+.titles {
+    margin-left: 15px;
+}
+.pro-con {
+    margin: 0 25px;
+    display: inline-block;
+}
+#top-img {
+    float: left;
+    margin: 10px;
+}
+
+#alt {
+    float: right;
+    margin: 10px;
+}
+br {
+    line-height: .35px;
+}
+
+#sr {
+    float: right;
+    margin: 10px;
+}
