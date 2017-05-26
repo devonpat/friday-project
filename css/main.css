@@ -157,49 +157,6 @@ a:hover {
     font-size: 50px;
     vertical-align: middle;
 }
-.gallery-success {
-    margin: 35px;
-    border: 10px solid #ccc;
-    width: 650px;
-}
-
-.gallery-success:hover {
-    border: 10px solid #777;
-}
-
-#fuel-title {
-    text-align: center;
-    margin: 30px;
-}
-.titles {
-    margin-left: 15px;
-}
-.pro-con {
-    margin: 0 25px;
-    display: inline-block;
-}
-#top-img {
-    float: left;
-    margin: 10px;
-}
-
-#alt {
-    float: right;
-    margin: 10px;
-}
-br {
-    line-height: .35px;
-}
-
-#sr {
-    float: right;
-    margin: 10px;
-}
-
-#link-intro {
-    margin-top: 100px;
-    color: darkgrey;
-}
 .slide {
     position: relative;
     padding: 25vh 10%;
@@ -210,8 +167,8 @@ br {
     transform-style: inherit;
 }
 .link{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
 }
 .title{
     right: 50%;
@@ -431,4 +388,96 @@ br {
     h3 {
         page-break-after: avoid;
     }
+}
+.gallery-success {
+    margin: auto;
+    margin-top: 45px;
+    border: 10px solid #ccc;
+    width: 650px;
+}
+
+.gallery-success:hover {
+    border: 10px solid #777;
+}
+
+#fuel-title {
+    text-align: center;
+    margin: 40px;
+    margin-top: 80px;
+}
+.titles {
+    margin-left: 15px;
+}
+.pro-con {
+    margin: 0 25px;
+}
+#top-img {
+    float: right;
+    margin: 10px;
+}
+
+#alt {
+
+    margin: 10px auto;
+    display: block;
+}
+br {
+    line-height: .35px;
+}
+
+#sr {
+    float: right;
+    margin: 10px;
+}
+.fixed15 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    left: 15px;
+}
+
+.fixed16 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    right: 185px;
+}
+
+#link-intro {
+    margin-top: 50px;
+    color: darkgray;
+    text-align: center;
+}
+.fixed15 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    left: 15px;
+}
+
+.fixed16 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    right: 185px;
+}
+
+.desc {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.move-to-center {
+    width: 800px;
+    margin: 0 auto;
+}
+a.navigation {
+  padding: 0px 35px;
+  word-wrap: normal;
+  display: inline-block;
 }
