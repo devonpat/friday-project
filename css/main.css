@@ -96,14 +96,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html{
+    height: 100%;
+}
 body{
     margin-top: 50px;
 }
 footer {
     width: 100%;
-    padding-top: 10px;  
+    padding-top: 10px;
 }
-
 a {
     color: #333333;
     text-decoration: none;
@@ -197,6 +199,68 @@ br {
 #link-intro {
     margin-top: 100px;
     color: darkgrey;
+}
+.slide {
+    position: relative;
+    padding: 25vh 10%;
+    min-height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
+.link{
+    width: 100px;
+    height: 100px;
+}
+.title{
+    right: 50%;
+    bottom: 50%;
+    top: 50%;
+    left: 40%;
+    color: #ffffff;
+    font-size: 50px;
+    z-index: 666;
+}
+.slide:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: -1;
+}
+.slide:nth-child(2n) .title {
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.slide, .slide:before {
+    background: 50% 50% / cover;
+}
+#slide1:before {
+    background-image: url("https://cff2.earth.com/uploads/2016/09/26141929/global-warming-climate-change-tree_1big_stock2.jpg");
+    z-index:-1;
+}
+
+#slide2 {
+    background-image: url("http://followgreenliving.com/wp-content/uploads/2014/05/fossil-fuel-power-plant.jpg");
+    background-attachment: fixed;
+}
+
+#slide3:before {
+    z-index:-1;
+}
+
+#slide4 {
+    background-image: url("http://az616578.vo.msecnd.net/files/2016/03/21/6359418476836083511657153506_Journey%20Towards%20Sucess.jpg");
+    background-attachment: fixed;
 }
 
 /* ==========================================================================
