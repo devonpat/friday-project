@@ -12,11 +12,16 @@
 img {
 	float: right;
 	height: 300px;
+	margin-left: 30px;
 
 }
 
 p {
-	margin-bottom: 200px;
+	margin: 0 auto 160px;
+}
+
+h2 {
+	margin-top: 60px;
 }
 
 /*#pic-1 {
