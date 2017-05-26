@@ -327,23 +327,24 @@ a, a:hover {
 
 #fuel-title {
     text-align: center;
-    margin: 30px;
+    margin: 40px;
+    margin-top: 80px;
 }
 .titles {
     margin-left: 15px;
 }
 .pro-con {
     margin: 0 25px;
-    display: inline-block;
 }
 #top-img {
-    float: left;
+    float: right;
     margin: 10px;
 }
 
 #alt {
-    float: right;
-    margin: 10px;
+
+    margin: 10px auto;
+    display: block;
 }
 br {
     line-height: .35px;
@@ -376,3 +377,35 @@ br {
     right: 185px;
 }
 
+#link-intro {
+    margin-top: 50px;
+    color: darkgray;
+    text-align: center;
+}
+.alternative-links a {
+
+
+}
+.alternative-links a:hover {
+    width: 100px;
+    color: magenta;
+    text-align: center;
+}
+.title-links a {
+    background-color: lightgrey;
+    color: black;
+    text-decoration: none;
+}
+
+.title-links a:hover {
+    color: purple;
+}
+.move-to-center {
+    width: 800px;
+    margin: 0 auto;
+}
+a.navigation {
+  padding: 0px 35px;
+  word-wrap: normal;
+  display: inline-block;
+}
