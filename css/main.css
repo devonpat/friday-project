@@ -315,7 +315,8 @@ a, a:hover {
 }
 
 .gallery-success {
-    margin: 35px;
+    margin: auto;
+    margin-top: 45px;
     border: 10px solid #ccc;
     width: 650px;
 }
@@ -371,5 +372,21 @@ br {
 
 .title-links a:hover {
     color: purple;
+}
+
+.fixed15 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    left: 15px;
+}
+
+.fixed16 {
+    height: 50px;
+    width: 75px;
+    position: fixed;
+    top: 45px;
+    right: 135px;
 }
 
