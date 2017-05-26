@@ -314,6 +314,16 @@ a, a:hover {
     }
 }
 
+.gallery-success {
+    margin: 35px;
+    border: 10px solid #ccc;
+    width: 650px;
+}
+
+.gallery-success:hover {
+    border: 10px solid #777;
+}
+
 #fuel-title {
     text-align: center;
     margin: 30px;
@@ -342,3 +352,4 @@ br {
     float: right;
     margin: 10px;
 }
+
