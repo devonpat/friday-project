@@ -96,12 +96,36 @@ nav.align-right li:last-child > a:after {
 nav.align-right li:first-child a:after {
     display: none;
 }
-@media screen and (max-width: 768px) {
-    nav ul li {
-        float: none;
-        display: block;
+@media only screen and (max-width : 640px) {
+
+    header {
+        position: absolute;
     }
 
+    #menu-icon {
+        display: inline-block;
+    }
+
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px;
+        right: 20px;
+        top: 60px;
+        width: 50%;
+        border-radius: 4px 0 4px 4px;
+    }
+
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    nav:hover ul {
+        display: block;
+    }
     nav ul li a {
         width: 100%;
         -moz-box-sizing: border-box;
@@ -109,17 +133,34 @@ nav.align-right li:first-child a:after {
         box-sizing: border-box;
         border-bottom: 1px solid #fb998c;
     }
-
     nav ul li.last > a,
     nav ul li:last-child > a {
         border: 0;
     }
-
     nav ul li a:after {
         display: none;
     }
-
     nav ul li a:before {
         display: none;
     }
+}
+body {
+    font-size: 1.05em;
+    line-height: 1.25em;
+    font-family: Helvetica Neue, Helvetica, Arial;
+    background: #f9f9f9;
+    color: #555;
+}
+#menu-icon {
+    width: 40px;
+    height: 40px;
+    background: #4C8FEC url(../img/menu-icon.png) center;
+}
+
+a:hover#menu-icon {
+    background-color: #444;
+    border-radius: 4px 4px 0 0;
+}
+.current{
+    color: #4C8FEC;
 }
