@@ -4,16 +4,10 @@
 	margin: 0 auto;
 }
 
-/*.section-container {
-	display: block;
-	position: relative;
-}*/
-
 img {
 	float: right;
 	height: 300px;
 	margin-left: 30px;
-
 }
 
 p {
@@ -24,26 +18,11 @@ h2 {
 	margin-top: 60px;
 }
 
-/*#pic-1 {
-	background-image: url("img/carbon_dioxide_400kyr.png");
-	background-color: grey;
-	float: right;
-	width: 400px;
-	height: 400px;
+ul {
+	list-style-type: none;
 }
 
-#pic-2 {
-	background-image: url("img/global_emissions_sector_2015.png");
-		background-color: grey;
-	float: right;
-	width: 400px;
-	height: 400px;
+li {
+	margin-bottom: 10px;
+	text-align: center;
 }
-
-#pic-3 {
-	background-image: url("img/local_emissions_sector.png");
-		background-color: grey;
-	float: right;
-	width: 400px;
-	height: 400px;
-}*/
